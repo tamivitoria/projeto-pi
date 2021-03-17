@@ -1,0 +1,50 @@
+.login-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    border-radius: 15px;
+}
+
+.login-form{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form h1{
+    text-align: center;
+    color: #47525E;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.login-form h3{
+    text-align: center;
+    color: #47525E;
+    font-size: 20px;
+}
+
+.login-form h4{
+    color: #034C8C;
+    font-size: 14px;
+}
+
+.login-container form{
+    padding: 10%;
+}
+
+.btnSubmit
+{
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.login-form .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
